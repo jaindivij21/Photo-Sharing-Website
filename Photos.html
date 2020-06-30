@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> My Webpage </title>
+    <link href="styles3.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js">
+    </script>
+    <script>
+        let counter1 = 0;
+        let counter2 = 0;
+        let counter3 = 0;
+        let counter4 = 0;
+        let counter5 = 0;
+        let counter6 = 0;
+        let counter7 = 0;
+        let counter8 = 0;
+        let counter9 = 0;
+
+
+        function increment(id) {
+            if (id === 'likes1') {
+
+                tag = document.getElementById(id);
+                counter1++;
+                tag.innerHTML = counter1 + " likes on this photo";
+            } else if (id === 'likes2') {
+                tag = document.getElementById(id);
+                counter2++;
+                tag.innerHTML = counter2 + " likes on this photo";
+            } else if (id === 'likes3') {
+                tag = document.getElementById(id);
+                counter3++;
+                tag.innerHTML = counter3 + " likes on this photo";
+            } else if (id === 'likes4') {
+                tag = document.getElementById(id);
+                counter4++;
+                tag.innerHTML = counter4 + " likes on this photo";
+            } else if (id === 'likes5') {
+                tag = document.getElementById(id);
+                counter5++;
+                tag.innerHTML = counter5 + " likes on this photo";
+            } else if (id === 'likes6') {
+                tag = document.getElementById(id);
+                counter6++;
+                tag.innerHTML = counter6 + " likes on this photo";
+            } else if (id === 'likes7') {
+                tag = document.getElementById(id);
+                counter7++;
+                tag.innerHTML = counter7 + " likes on this photo";
+            } else if (id === 'likes8') {
+                tag = document.getElementById(id);
+                counter8++;
+                tag.innerHTML = counter8 + " likes on this photo";
+            } else if (id === 'likes9') {
+                tag = document.getElementById(id);
+                counter9++;
+                tag.innerHTML = counter9 + " likes on this photo";
+            }
+
+        }
+    </script>
+</head>
+
+<body>
+    <div style="background-color:rgb(253, 253, 253);">
+        <!--header of the index page -->
+        <br>
+        <h4 class="heading4"> NOTHING TO LOSE AND A WORLD TO SEE </h4>
+        <h1 class="heading1"> PASSING INTO OBLIVION </h1>
+        <br>
+    </div>
+    <br>
+
+    <div>
+        <!-- navbar of the index page -->
+        <div class="mx-auto" style="width: 518px;">
+            <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light border">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active border-right mr-1 pr-4" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link border-right mr-1 px-4" href="Blog.html">Blog</a>
+                    <a class="nav-item nav-link border-right mr-1 px-4" href="Photos.html">Photos</a>
+                    <a class="nav-item nav-link border-right mr-1 px-4" href="Contact.html">Contact</a>
+                </div>
+                <div class="d-flex flex-row order-2">
+                    <ul class="navbar-nav flex-row">
+                        <li class="nav-item">
+                            <a class="nav-link pl-4" href="https://www.facebook.com/passing.into.oblivion">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.instagram.com/passing.into.oblivion">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pr-4" href="https://www.youtube.com/channel/UCL5IczpWayaw1ZYJwNZE_0Q">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <br><br>
+    <div id="window">
+        <div>
+            <br><br>
+            <h1 class="mainheading">INSTAGRAM: @PASSING.INTO.OBLIVION</h1>
+            <hr style="height:1.5px; border-width:2px ;color:rgb(255, 235, 0) ;background-color:  rgb(255, 235, 0); margin-left: 150px; margin-right: 150px;">
+            <br><br>
+        </div>
+
+        <div class="grid">
+            <div class="card3">
+                <img src="./Resources/Instagram/1.jpg">
+                <br><br>
+                <form onsubmit="increment('likes1'); return false;" style="padding-left:20px; padding-top: 2px;">
+                    <input type="submit" value="Like" style="float: left;">
+                    <div id="likes1" style="margin-left:70px;">
+                        0 likes on this photo
+                    </div>
+                </form>
+            </div>
+            <div class="card3">
+                <img src="./Resources/Instagram/2.jpg">
+                <br><br>
+                <form onsubmit="increment('likes2'); return false;" style="padding-left:20px; padding-top: 2px;">
+                    <input type="submit" value="Like" style="float: left;">
+                    <div id="likes2" style="margin-left:70px;">
+                        0 likes on this photo
+                    </div>
+                </form>
+            </div>
+            <div class="card3">
+                <img src="./Resources/Instagram/3.jpg">
+                <br><br>
+                <form onsubmit="increment('likes3'); return false;" style="padding-left:20px; padding-top: 2px;">
+                    <input type="submit" value="Like" style="float: left;">
+                    <div id="likes3" style="margin-left:70px;">
+                        0 likes on this photo
+                    </div>
+                </form>
+            </div>
+            <div class="card3">
+                <img src="./Resources/Instagram/4.jpg">
+                <br><br>
+                <form onsubmit="increment('likes4'); return false;" style="padding-left:20px; padding-top: 2px;">
+                    <input type="submit" value="Like" style="float: left;">
+                    <div id="likes4" style="margin-left:70px;">
+                        0 likes on this photo
+                    </div>
+                </form>
+            </div>
+            <div class="card3">
+                <img src="./Resources/Instagram/5.jpg">
+                <br><br>
+                <form onsubmit="increment('likes5'); return false;" style="padding-left:20px; padding-top: 2px;">
+                    <input type="submit" value="Like" style="float: left;">
+                    <div id="likes5" style="margin-left:70px;">
+                        0 likes on this photo
+                    </div>
+                </form>
+            </div>
+            <div class="card3">
+                <img src="./Resources/Instagram/6.jpg">
+                <br><br>
+                <form onsubmit="increment('likes6'); return false;" style="padding-left:20px; padding-top: 2px;">
+                    <input type="submit" value="Like" style="float: left;">
+                    <div id="likes6" style="margin-left:70px;">
+                        0 likes on this photo
+                    </div>
+                </form>
+            </div>
+            <div class="card3">
+                <img src="./Resources/Instagram/7.jpg">
+                <br><br>
+                <form onsubmit="increment('likes7'); return false;" style="padding-left:20px; padding-top: 2px;">
+                    <input type="submit" value="Like" style="float: left;">
+                    <div id="likes7" style="margin-left:70px;">
+                        0 likes on this photo
+                    </div>
+                </form>
+            </div>
+            <div class="card3">
+                <img src="./Resources/Instagram/8.jpg">
+                <br><br>
+                <form onsubmit="increment('likes8'); return false;" style="padding-left:20px; padding-top: 2px;">
+                    <input type="submit" value="Like" style="float: left;">
+                    <div id="likes8" style="margin-left:70px;">
+                        0 likes on this photo
+                    </div>
+                </form>
+            </div>
+            <div class="card3">
+                <img src="./Resources/Instagram/9.jpg">
+                <br><br>
+                <form onsubmit="increment('likes9'); return false;" style="padding-left:20px; padding-top: 2px;">
+                    <input type="submit" value="Like" style="float: left;">
+                    <div id="likes9" style="margin-left:70px;">
+                        0 likes on this photo
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

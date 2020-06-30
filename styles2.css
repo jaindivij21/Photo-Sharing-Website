@@ -1,0 +1,63 @@
+.mainheading1 {
+    text-align: center;
+    font-family: Georgia;
+    font-size: 500%;
+}
+
+.mainheading2 {
+    text-align: center;
+    font-family: Roboto;
+}
+
+.heading1 {
+    text-align: left;
+    padding-left: 1%;
+    text-shadow: yellow;
+    text-emphasis: bold;
+    color: rgb(255, 255, 255);
+    font-family: helvetica;
+    font-size: 450%;
+}
+
+#window {
+    padding: 20px;
+    width: auto;
+    height: auto;
+    background: rgb(25, 24, 26);
+    position: absolute;
+}
+
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+.card {
+    background-color: rgb(76, 78, 77);
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.padding1 {
+    padding-left: 10px;
+}

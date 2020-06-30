@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> My Webpage </title>
+    <link href="styles3.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <script>
+        function greet() {
+            alert("Thanks for submitting response.");
+        }
+    </script>
+</head>
+
+<body>
+    <div style="background-color:rgb(253, 253, 253);">
+        <!-- header of the index page -->
+        <br>
+        <h4 class="heading4"> NOTHING TO LOSE AND A WORLD TO SEE </h4>
+        <h1 class="heading1"> PASSING INTO OBLIVION </h1>
+        <br>
+    </div>
+
+    <div>
+        <!-- navbar of the index page -->
+        <div class="mx-auto" style="width: 518px;">
+            <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light border">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active border-right mr-1 pr-4" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link border-right mr-1 px-4" href="Blog.html">Blog</a>
+                    <a class="nav-item nav-link border-right mr-1 px-4" href="Photos.html">Photos</a>
+                    <a class="nav-item nav-link border-right mr-1 px-4" href="Contact.html">Contact</a>
+                </div>
+                <div class="d-flex flex-row order-2">
+                    <ul class="navbar-nav flex-row">
+                        <li class="nav-item">
+                            <a class="nav-link pl-4" href="https://www.facebook.com/passing.into.oblivion">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.instagram.com/passing.into.oblivion">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pr-4" href="https://www.youtube.com/channel/UCL5IczpWayaw1ZYJwNZE_0Q">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <br><br>
+    <div id="window">
+        <div>
+            <br><br>
+            <h1 class="mainheading">Contact Me:</h1>
+            <hr style="height:1.5px; border-width:2px ;color:rgb(255, 235, 0) ;background-color:  rgb(255, 235, 0); margin-left: 150px; margin-right: 150px;">
+            <br><br>
+        </div>
+        <div>
+            <div class="card2">
+                <form id="myform" onsubmit="greet(); return false;">
+                    <label for="fname">First Name  </label>
+                    <input type="text" id="fname" name="firstname">
+                    <br><br>
+                    <label for="lname">Last Name  </label>
+                    <input type="text" id="lname" name="lastname">
+                    <br><br><br>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" style="height:200px; width: 500px; padding-left: 5px;"></textarea>
+                    <br><br>
+                    <input type="submit" value="Submit">
+                </form>
+                <script>
+                    function submit() {
+                        document.getElementById("myForm").reset();
+                    }
+                </script>
+            </div>
+        </div>
+
+        <div>
+            <div class="card">
+                <h2>About Me</h2>
+                <hr style="margin-top: 2px;">
+                <div>
+                    <img src="Resources/Divijpic2.jpg" alt="Divij" width="380px" height="500px">
+                    <br><br>
+                    <p style="padding-left: 3px;">Hey there, I am Divij. A budding photgrapher and cinematographer from India. Travel is my drug of choice and I get the zeal of my life by visiting places I have never been to.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
